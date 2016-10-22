@@ -1,0 +1,13 @@
+format of the files:
+- every field is represented by a sequence of characters. 
+- First is a number, which signifies the initial state
+- Then a sequence of letters signifies separate layers. RGB/rgb are automatically translated to colours, but anything can be used. Capital letters are considered walls.
+- X,Y signify the initial player position
+
+
+controls:
+- weadzx movement of X
+- WEADZX movement of Y
+- 0-9 specify how many fields behind the player should change
+- i - toggles restricted mode - this mode switches only the fields in radius which are of the colour from which the player has moved
+- s quit
